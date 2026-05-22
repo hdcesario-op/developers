@@ -7,7 +7,7 @@ executors:
   linux:
     machine:
       image: ubuntu-2204:2024.08.1
-    resource_class: medium
+    resource_class: medium.gen2
 
 jobs:
   developer-discussion-metrics:
